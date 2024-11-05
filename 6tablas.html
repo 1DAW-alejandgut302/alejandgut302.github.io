@@ -3,11 +3,36 @@
 <head>
 	<meta charset="utf-8" />
 	<title>tablas</title>
-
+	<style>
+		* {
+			background-color: beige;
+		}
+		.tabla1 {
+			background-color: aqua;
+		}
+		.tabla2 {
+			background-color: rgb(20, 69, 25);
+		}
+		.tabla3 {
+			background-color: rgb(58, 13, 13);
+		}
+		.tabla4 {
+			background-color: rgb(71, 25, 50);
+		}
+		.tabla5 {
+			background-color: rgb(197, 52, 24);
+		}
+		.tabla6 {
+			background-color: rgb(72, 37, 188);
+		}
+		.tabla7 {
+			background-color: rgb(139, 34, 174);
+		}
+	</style>
 </head>
 
 <body>
-	<table border="1" ; align = "center">
+	<table class="tabla1" border="1" ; align = "center">
 		<caption><b>tabla simple</b></caption>
 		<tr> 
 			<td>fila1-celda1</td>
@@ -21,7 +46,7 @@
 		</tr>
 	</table>
 	<p><br/></p>
-	<table border="2">
+	<table class="tabla2" border="2">
 		<caption><b>tabla con cabeceras</b></caption>
 		<tr> 
 			<td>fila1-columna1</td>
@@ -35,7 +60,7 @@
 		</tr>
 	</table>
 	<p><br/></p>
-	<table border="1">
+	<table class="tabla3" border="1">
 		<caption><b>tabla con celdas unidas</b></caption>
 		<tr> 
 			<td colspan="3"; align="center">celda sobre 3 columnas</td>
@@ -51,7 +76,7 @@
 		</tr>
 	</table>
 	<p><br/></p>
-	<table border="1">
+	<table class="tabla4" border="1">
 		<caption><b>tabla con filas unidas</b></caption>
 		<tr> 
 			<td rowspan="2">texto sobre dos filas</td>
@@ -64,7 +89,7 @@
 		</tr>
 	</table>
 	<p><br/></p>
-	<table border="5"; cellspacing="20">
+	<table class="tabla5" border="5"; cellspacing="20">
 		<caption><b>tabla con separacion entre celdas</b></caption>
 		<tr> 
 		<td>fila1-celda1</td>
@@ -78,7 +103,7 @@
 		</tr>
 	</table>
 	<p><br/></p>
-	<table border="1"; cellpadding="10">
+	<table class="tabla6" border="1"; cellpadding="10">
 		<caption><b>tabla con separacion entre borde y contenido de la celda</b></caption>
 		<tr> 
 			<td>fila1-celda1</td>
@@ -92,7 +117,7 @@
 		</tr>
 	</table>
 	<p><br/></p>
-	<table border="2">
+	<table class="tabla7" border="2">
 		<caption><b>tabla con cabecera, cuerpo y pie</b></caption>
 		<thead>
 		<tr> 
