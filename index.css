@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#horizontal {
+    background-color: skyblue;
+    font-family: 'Comic Sans MS';
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+#horizontal li a{
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+#horizontal li {
+    float: left;
+}
+
+#vertical {
+    background-color: green;
+    font-family: "Lucida Console", Monaco, monospace;
+    list-style-type: none;
+    width: 8%;
+    overflow: hidden;
+    justify-content: center;
+    padding: 5px;
+    margin: 0;
+}
+#vertical li a{
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+#vertical li {
+    margin: 0px auto;
+}
