@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3</title>
+    <style>
+        #apartadoA {
+            background-color: rgba(255, 0, 0, 0.8);
+        }
+        #apartadoB1 {
+            background-color: hsl(170, 80%, 20%);
+        }
+        #apartadoB2 {
+            background-color: hsla(60, 80%, 20%, 0.5);
+        }
+        #apartadoC {
+            background-image: linear-gradient(blue, green, yellow, red);
+        }
+        #cajaRoja {
+            background-color: red;
+            border-radius: 8px;
+        }
+        #cajaAzul {
+            background-color: blue;
+            border-radius: 5px;
+        }
+        #tabla5 {
+            border: 5px solid black;
+            box-shadow: 10px 10px 14px black;
+        }
+        #tabla1 {
+            border: 2px solid black;
+            transition: 2s, 4s;
+        }
+        #tabla1:hover {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="apartadoA">Alejandro</h1>
+    <h2 id="apartadoB1">Gutiérrez</h2>
+    <h3 id="apartadoB2">González</h3>
+    <h4 id="apartadoC">Avda. Kansas City, 86, 8ºB</h4>
+    <div id="cajaRoja">Alejandro</div>
+    <div id="cajaAzul">Gutiérrez González</div>
+    <table id="tabla5" border="5"; cellspacing="20">
+		<caption><b>tabla con separacion entre celdas</b></caption>
+		<tr> 
+            <td>fila1-celda1</td>
+            <td>fila1-celda2</td>
+            <td>fila1-celda3</td>
+		</tr>
+		<tr> 
+            <td>fila2-celda1</td>
+            <td>fila2-celda2</td>
+            <td>fila2-celda3</td>
+		</tr>
+	</table>
+    <table id="tabla1" border="1" ; align = "center">
+		<caption><b>tabla simple</b></caption>
+		<tr> 
+			<td>fila1-celda1</td>
+			<td>fila1-celda2</td>
+			<td>fila1-celda3</td>
+		</tr>
+		<tr> 
+			<td>fila1-celda1</td>
+			<td>fila1-celda2</td>
+			<td>fila1-celda3</td>
+		</tr>
+	</table>
+</body>
+</html>
