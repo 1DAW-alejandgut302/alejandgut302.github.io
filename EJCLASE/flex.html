@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Propiedad flex</title>
+        <style>
+            * {
+                text-align: center;
+            }
+            #flexcontainer {
+                margin: 0px auto;
+                display: flex;
+                width: 90%;
+                height: 400px;
+                background-color: crimson;
+            }
+            #flexcontainer > div {
+                background-color: white;
+                width: 20%;
+                height: 250px;
+                margin-top: 40px;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            #flexcontainer > div > * {
+                width: 100%;
+                height: 250px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>EJEMPLOS DEL MODULO FLEX</h1>
+        <div id="flexcontainer">
+            <div><img src="imagenes/patioleoncitos.jpg" alt="PatioLeones"></div>
+            <div><iframe src="https://es.wikipedia.org/wiki/Wikipedia:Portada" frameborder="0"></iframe></div>
+            <div><iframe src="3enlaces.html" frameborder="0"></iframe></div>
+        </div>
+        <div id="flexcontainer">
+            <div><iframe src="https://iesmartinezm.es/" frameborder="0"></iframe></div>
+            <div></div>
+            <div></div>
+        </div>
+    </body>
+</html>
