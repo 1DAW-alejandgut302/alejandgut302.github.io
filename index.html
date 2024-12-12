@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Trabajo Final</title>
+        <style>
+            #titulo {
+                background-color: red;
+                margin: 0px auto;
+                border-radius: 5px;
+                width: 50%;
+                text-align: center;
+                box-shadow: 10px 10px 14px black;
+            }
+            #subtitulo {
+                margin: 0px auto;
+                width: 30%;
+                background-image: linear-gradient(red, orange, yellow);
+                text-align: center;
+                transition: background 2s;
+            }
+            #subtitulo:hover {
+                background: skyblue;
+            }
+            #imagen {
+                margin: 0px auto;
+                text-align: center;
+            }
+            #imagen > img {
+                width: 100px;
+                height: 100px;
+            }
+            #indydat {
+                display: flex;
+                margin: 0px auto;
+                width: 50%;
+                background-color: darkgreen;
+            }
+            #indice {
+                margin: 0px auto;
+                background-color: beige;
+                
+            }
+            #indice > ul {
+                list-style-type: none;
+                overflow: hidden;
+            }
+            #indice > ul > li {
+                float: left;
+                background-color: black;
+            }
+            #indice > ul > li > a {
+                display: block;
+                text-decoration: none;
+                color: white;
+                padding: 14px 16px;
+                text-align: center;
+            }
+            #weblibre:hover {
+                color: yellow;
+            }
+            #datos {
+                margin: 0px auto;
+                background-color: beige;
+                border: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="titulo">
+            <h1>Trabajo Final</h1>
+        </div>
+        <div id="subtitulo">
+            <h2>HTML Y CSS</h2>
+        </div>
+
+        <div id="imagen">
+            <img src="Top.jpg" alt="Muy top">
+        </div>
+        
+
+        <div id="indydat">
+            <div id="indice">
+                <ul>
+                    <li><a id="weblibre" href="WebLibre/indice.html">Club de Campo</a></li>
+                    <li><a href="EJCLASE/index.html">Ejs Clase</a></li>
+                </ul>
+            </div>
+
+            <table id="datos">
+                <tr>
+                    <td>Nombre:</td>
+                    <td>Alejandro Gutiérrez González</td>
+                </tr>
+                <tr>
+                    <td>Modulo:</td>
+                    <td>Lenguajes de Marca</td>
+                </tr>
+                <tr>
+                    <td>IES:</td>
+                    <td>Martínez Montañés</td>
+                </tr>
+                <tr>
+                    <td>Profesor:</td>
+                    <td>Gregorio Jiménez</td>
+                </tr>
+                <tr>
+                    <td>Curso:</td>
+                    <td>2024/2025</td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+</html>
